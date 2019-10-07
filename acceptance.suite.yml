@@ -12,4 +12,5 @@ modules:
                 url: http://google.com/
                 browser: chrome
         - \Helper\Acceptance
+        - Filesystem
     step_decorators: ~        
