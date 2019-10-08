@@ -13,4 +13,9 @@ modules:
                 browser: chrome
         - \Helper\Acceptance
         - Filesystem
-    step_decorators: ~        
+    step_decorators: ~
+
+gherkin:
+    contexts:
+        default:
+            - AcceptanceTester
